@@ -10,6 +10,7 @@ export default {
     host: process.env.HOST || '0.0.0.0' // default: localhost
   },
   router: {
+    base: process.env.NODE_ENV == 'development' ? '/' : '/sec-admin/'
     // middleware: 'nuxti18n'
   },
   robots: [
