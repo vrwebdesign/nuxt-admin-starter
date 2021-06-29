@@ -79,7 +79,7 @@ export default {
     // Doc: https://github.com/nuxt-community/svg-module#readme
     // '@nuxtjs/svg',
     // Doc: https://github.com/nuxt-community/recaptcha-module#readme
-    '@nuxtjs/recaptcha',
+    // '@nuxtjs/recaptcha',
     // Doc: https://github.com/nuxt-community/sentry-module
     // '@nuxtjs/sentry',
     // Doc: https://github.com/nuxt-community/sitemap-module
@@ -123,11 +123,11 @@ export default {
   gtm: {
     id: process.env.GTM
   },
-  recaptcha: {
-    hideBadge: true, // Hide badge element (v3)
-    siteKey: process.env.RECAPTCHA_SITEKEY, // Site key for requests
-    version: 3 // Version
-  },
+  // recaptcha: {
+  //   hideBadge: true, // Hide badge element (v3)
+  //   siteKey: process.env.RECAPTCHA_SITEKEY, // Site key for requests
+  //   version: 3 // Version
+  // },
   /*
    ** AUth module configuration
    ** See https://auth.nuxtjs.org/api/auth.html
